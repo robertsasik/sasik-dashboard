@@ -27,3 +27,11 @@ with col2:
     plt.xlabel("Čas")
     plt.ylabel("Hodnota")
     st.pyplot(plt)
+
+
+user = st.secrets["p_user"]
+db_password = st.secrets["p_password"]
+
+
+st.write(f"DB Username: {user}")
+
