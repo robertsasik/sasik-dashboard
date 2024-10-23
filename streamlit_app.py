@@ -13,6 +13,7 @@ df = pd.DataFrame(data)
 # Rozdelenie na dva stĺpce
 col1, col2 = st.columns(2)
 
+
 # Prvý stĺpec - tabuľka
 with col1:
     st.header("Tabuľka údajov")
